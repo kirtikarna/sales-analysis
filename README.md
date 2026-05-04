@@ -35,6 +35,8 @@ Interactive dashboard built with:
 * Category-wise Performance (Bar Chart)
 * Top 10 Products Analysis
 * Filters: Region, Category, Date
+* <img width="1388" height="850" alt="Screenshot (2)" src="https://github.com/user-attachments/assets/c7e28c0e-d51c-402e-8287-6333106d6012" />
+
 
  📈 Key Insights
 
