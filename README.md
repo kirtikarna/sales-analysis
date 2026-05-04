@@ -1,29 +1,68 @@
+<img width="1389" height="871" alt="Screenshot (1)" src="https://github.com/user-attachments/assets/13de9679-9287-42da-ac36-1d9c688df92a" />
 # 📊 Sales Performance & Profitability Analysis
 
-## 📌 Objective
-Analyze sales data to identify trends, profitability, and business opportunities.
+ 📌 Objective
 
-## 🛠 Tools Used
-- SQL
-- Power BI
-- Excel
+Analyze retail sales data to uncover revenue trends, identify profitability issues, and generate actionable business insights for decision-making.
 
-## 📊 Dashboard Preview
-<img width="1599" height="807" alt="Screenshot of Dashboard" src="https://github.com/user-attachments/assets/148399fb-52bb-4e9e-ac69-26f1618a87ad" />
+🧹 Data Cleaning & Preparation
 
+* Removed duplicate records to ensure data accuracy
+* Handled missing/null values
+* Standardized date formats for consistency
+* Created new feature:
+ * **Profit Margin = Profit / Sales**
+* Structured dataset for SQL and Power BI analysis
 
-## 📈 Key Insights
-- West region leads in sales
-- High discounts reduce profit
-- Technology category is most profitable
+🗄️ SQL Analysis
 
-## 💡 Business Recommendations
-- Optimize discount strategy
-- Focus on high-margin products
-- Improve low-performing regions
+Performed structured queries to solve key business problems:
 
-## 📂 Dataset
-Superstore Dataset from Kaggle
+* Sales distribution by region
+* Profitability by category
+* Monthly sales trends
+* Top-performing products
+* Loss-making products
+* Impact of discounts on profit
 
-## 🚀 Conclusion
-This project provides actionable insights to improve sales and profitability.
+ 📊 Dashboard (Power BI)
+
+Interactive dashboard built with:
+
+* KPI Cards: Total Sales, Profit, Orders, Profit Margin
+* Monthly Sales Trend (Line Chart)
+* Sales by Region (Pie/Map)
+* Category-wise Performance (Bar Chart)
+* Top 10 Products Analysis
+* Filters: Region, Category, Date
+
+ 📈 Key Insights
+
+* **West region contributes ~30% of total revenue**, indicating a strong market presence and potential for expansion strategies.
+* **Technology category generates the highest profit**, making it the most valuable segment for business growth.
+* **Furniture category shows high sales but low profit margins**, suggesting inefficiencies in pricing or cost structure.
+* **Higher discount levels significantly reduce profitability**, highlighting poor discount optimization.
+* **Sales peak during Q4**, indicating seasonal demand trends and opportunities for targeted campaigns.
+
+💡 Business Recommendations
+
+* Optimize discount strategies, especially for low-margin products
+* Focus marketing efforts on high-performing regions like the West
+* Increase promotion of high-profit categories such as Technology
+* Re-evaluate pricing strategy for loss-making products
+* Leverage Q4 demand by planning seasonal campaigns and inventory
+
+ 🛠 Tools Used
+
+* SQL (Data Analysis)
+* Power BI (Dashboard & Visualization)
+* Excel (Data Cleaning & Preparation)
+
+ 📂 Dataset
+
+Superstore Dataset (Kaggle)
+
+🚀 Conclusion
+
+This project demonstrates how raw sales data can be transformed into meaningful insights using SQL and Power BI. The analysis highlights key revenue drivers, identifies profit leakages, and provides actionable recommendations to improve overall business performance.
+
